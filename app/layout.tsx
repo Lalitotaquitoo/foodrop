@@ -36,7 +36,7 @@ export default function RootLayout({
         <meta name="description" content="Ordena comida directo a tu salón. Exclusivo para estudiantes de Anáhuac Mayab." />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="theme-color" content="#FF441F" />
+        <meta name="theme-color" content="#10B981" />
 
         {/* Viewport with safe areas for notch support */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover" />
