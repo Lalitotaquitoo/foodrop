@@ -5,7 +5,7 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#FF441F",
+  "theme_color": "#10B981",
   "orientation": "portrait",
   "icons": [
     {
@@ -47,7 +47,10 @@
       ]
     }
   ],
-  "categories": ["food", "shopping"],
+  "categories": [
+    "food",
+    "shopping"
+  ],
   "lang": "es",
   "dir": "ltr"
 }
