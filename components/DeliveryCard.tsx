@@ -75,8 +75,8 @@ export const DeliveryCard: React.FC<DeliveryCardProps> = ({ order }) => {
                             <p className="font-bold text-gray-900">{getEstimatedDeliveryTime(order)}</p>
                         </div>
                     </div>
-                    <div className="flex-1 bg-orange-50 rounded-xl p-3 flex items-center gap-2">
-                        <TrendingUp className="w-5 h-5 text-orange-600" />
+                    <div className="flex-1 bg-yellow-50 rounded-xl p-3 flex items-center gap-2">
+                        <TrendingUp className="w-5 h-5 text-yellow-600" />
                         <div>
                             <p className="text-xs text-gray-500 font-medium">Distancia</p>
                             <p className="font-bold text-gray-900">{formatDistance(order.distance)}</p>
