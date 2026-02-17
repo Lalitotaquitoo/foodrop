@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="grad512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF441F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C6B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#grad512)"/>
+  
+  <!-- Delivery box icon - larger -->
+  <path d="M256 135L375 193V325L256 383L137 325V193L256 135Z" fill="white" opacity="0.95"/>
+  <path d="M256 135V383M256 135L375 193M256 135L137 193" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="24" fill="#FF441F"/>
+  
+  <!-- Add small location pin detail -->
+  <path d="M256 230L270 256L256 270L242 256L256 230Z" fill="#FF8C6B"/>
+</svg>

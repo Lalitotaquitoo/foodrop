@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 FooDrop - Delivery Exclusivo Anáhuac Mayab
 
-## Getting Started
+Plataforma de delivery de comida diseñada exclusivamente para estudiantes de la Universidad Anáhuac Mayab.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Tailwind](https://img.shields.io/badge/Tailwind-v4-38bdf8)
+
+## 🎓 Acerca de FooDrop
+
+FooDrop es una aplicación de delivery creada específicamente para la comunidad estudiantil de la Universidad Anáhuac Mayab. Ordena comida de tus restaurantes favoritos y recíbela directo en tu salón de clases o área favorita del campus.
+
+## 🚀 Características
+
+- ✅ **Diseño Responsive** - Funciona perfecto en móvil, tablet y desktop
+- ✅ **Carrito de Compras** - Agrega items, maneja cantidades y procede al pago
+- ✅ **Navegación por Categorías** - Carrusel horizontal de categorías
+- ✅ **Grid de Restaurantes** - Diseño de cards con ratings e info de entrega
+- ✅ **Gestión de Estado** - Zustand para funcionalidad del carrito
+- ✅ **Optimización de Imágenes** - Next.js Image component
+- ✅ **Animaciones Modernas** - Efectos suaves y transiciones
+
+## 🛠️ Stack Tecnológico
+
+- **Framework**: [Next.js 16](https://nextjs.org/) con App Router
+- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/)
+- **Estilos**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Iconos**: [Lucide React](https://lucide.dev/)
+- **Estado**: [Zustand](https://zustand-demo.pmnd.rs/)
+
+## 📦 Instalación
 
 ```bash
+# Navegar al directorio
+cd rappi-clone
+
+# Instalar dependencias
+npm install
+
+# Ejecutar servidor de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Estructura del Proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+rappi-clone/
+├── app/
+│   ├── globals.css       # Estilos globales con colores de marca
+│   ├── layout.tsx        # Layout raíz
+│   └── page.tsx          # Página principal
+├── components/
+│   ├── ui/               # Componentes atómicos
+│   │   ├── Button.tsx
+│   │   └── Badge.tsx
+│   ├── Header.tsx        # Header sticky
+│   ├── CategoryCarousel.tsx
+│   ├── PromoBanner.tsx
+│   ├── RestaurantCard.tsx
+│   └── CartSidebar.tsx
+└── lib/
+    ├── data.ts           # Datos mock
+    └── store.ts          # Store de Zustand
+```
 
-## Learn More
+## 🎨 Sistema de Diseño
 
-To learn more about Next.js, take a look at the following resources:
+### Colores de Marca
+- **Naranja Principal**: `#FF441F`
+- **Verde Secundario**: `#00A650`
+- **Durazno**: `#FF8C6B`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tokens de Diseño
+- Border Radius: `rounded-2xl` para cards, `rounded-full` para botones
+- Shadows: `shadow-sm`, `shadow-md`, `shadow-xl`
+- Breakpoints responsive mobile-first
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧩 Componentes
 
-## Deploy on Vercel
+### Header
+Header sticky con barra de búsqueda, ubicación del campus, botón de login y carrito.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Carrusel de Categorías
+Scroll horizontal de categorías: Restaurantes, Super, Farmacia, Licores, Mascotas.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Cards de Restaurantes
+Layout en grid mostrando info de restaurantes, ratings, tiempo de entrega y botón de agregar al carrito.
+
+### Carrito de Compras
+Sidebar deslizante con items del carrito, controles de cantidad y checkout.
+
+## 📱 Breakpoints Responsive
+
+- **Móvil**: < 640px (1 columna)
+- **Tablet**: 640px - 1024px (2 columnas)
+- **Desktop**: > 1024px (3-4 columnas)
+
+## 🚧 Próximos Pasos
+
+- [ ] Integración con API backend
+- [ ] Autenticación de estudiantes
+- [ ] Funcionalidad de búsqueda
+- [ ] Seguimiento de órdenes
+- [ ] Integración de pagos
+- [ ] Páginas de detalle de productos
+- [ ] Sistema de reviews
+- [ ] Programa de recompensas para estudiantes
+
+## 📄 Licencia
+
+MIT
+
+## 👨‍💻 Desarrollado para
+
+Universidad Anáhuac Mayab - Servicio exclusivo para estudiantes
