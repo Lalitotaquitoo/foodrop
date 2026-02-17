@@ -28,21 +28,22 @@ export interface DeliveryOrder {
 // Campus locations
 export const campusLocations: DeliveryLocation[] = [
     // Dorms
-    { name: 'Residencia Femenina A', building: 'Res-F-A', type: 'dorm' },
-    { name: 'Residencia Femenina B', building: 'Res-F-B', type: 'dorm' },
-    { name: 'Residencia Masculina A', building: 'Res-M-A', type: 'dorm' },
-    { name: 'Residencia Masculina B', building: 'Res-M-B', type: 'dorm' },
+    { name: 'Residencias Lomas Femenina', building: 'Lomas F', type: 'dorm' },
+    { name: 'Residencias Lomas Masculina', building: 'Lomas M', type: 'dorm' },
+    { name: 'Residencias Campus', building: 'Campus', type: 'dorm' },
 
     // Academic buildings
-    { name: 'Edificio A (Humanidades)', building: 'A', type: 'building' },
-    { name: 'Edificio B (Ciencias)', building: 'B', type: 'building' },
-    { name: 'Edificio C (Ingenierías)', building: 'C', type: 'building' },
-    { name: 'Edificio D (Negocios)', building: 'D', type: 'building' },
+    { name: 'CETEC (Ingenierías)', building: 'CETEC', type: 'building' },
+    { name: 'CTAI (Tecnologías)', building: 'CTAI', type: 'building' },
+    { name: 'Edificio Ignacio (Negocios)', building: 'Ignacio', type: 'building' },
+    { name: 'Edificio de Humanidades', building: 'Humanidades', type: 'building' },
+    { name: 'Edificio de Salud', building: 'Salud', type: 'building' },
 
     // Other
-    { name: 'Biblioteca Central', building: 'Biblioteca', type: 'building' },
-    { name: 'Centro Deportivo', building: 'Deportivo', type: 'sports' },
-    { name: 'Cafetería Principal', building: 'Cafetería', type: 'cafeteria' },
+    { name: 'Biblioteca José Sánchez Villaseñor', building: 'Biblioteca', type: 'building' },
+    { name: 'Gimnasio / Deportivo', building: 'Deportivo', type: 'sports' },
+    { name: 'Cancha de Fútbol', building: 'Canchas', type: 'sports' },
+    { name: 'Cafetería Madero', building: 'Cafetería', type: 'cafeteria' },
 ];
 
 // Sample available delivery orders

@@ -60,29 +60,29 @@ export const ActiveDelivery: React.FC<ActiveDeliveryProps> = ({ delivery }) => {
 
             {/* Payment Method Warning - Cash Only */}
             {delivery.paymentMethod === 'cash' && (
-                <div className="mb-5 bg-gradient-to-r from-orange-100 to-orange-50 border-2 border-orange-400 rounded-2xl p-5 shadow-md">
+                <div className="mb-5 bg-gradient-to-r from-amber-100 to-amber-50 border-2 border-amber-400 rounded-2xl p-5 shadow-md">
                     <div className="flex items-start gap-4">
-                        <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                        <div className="w-14 h-14 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
                             <span className="text-3xl">💵</span>
                         </div>
                         <div className="flex-1">
-                            <h3 className="font-black text-xl text-orange-900 mb-2 flex items-center gap-2">
+                            <h3 className="font-black text-xl text-amber-900 mb-2 flex items-center gap-2">
                                 <span>⚠️ PAGO EN EFECTIVO</span>
                             </h3>
-                            <p className="text-orange-800 font-bold text-sm mb-2">
+                            <p className="text-amber-800 font-bold text-sm mb-2">
                                 Debes cobrar ${delivery.totalAmount} MXN al cliente
                             </p>
-                            <ul className="text-orange-700 text-sm space-y-1 font-medium">
+                            <ul className="text-amber-700 text-sm space-y-1 font-medium">
                                 <li className="flex items-start gap-2">
-                                    <span className="text-orange-500 font-bold">→</span>
+                                    <span className="text-amber-500 font-bold">→</span>
                                     Verifica que el cliente tenga el monto exacto
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <span className="text-orange-500 font-bold">→</span>
+                                    <span className="text-amber-500 font-bold">→</span>
                                     Entrégale el cambio si es necesario
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <span className="text-orange-500 font-bold">→</span>
+                                    <span className="text-amber-500 font-bold">→</span>
                                     Confirma que recibiste el pago completo antes de marcar como entregado
                                 </li>
                             </ul>
