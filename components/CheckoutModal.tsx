@@ -121,11 +121,11 @@ export const CheckoutModal: React.FC = () => {
                                             required
                                         >
                                             <option value="" style={{ color: '#6B7280' }}>📍 Selecciona una ubicación</option>
-                                            <option value="Edificio A - Salón 101" style={{ color: '#111827' }}>Edificio A - Salón 101</option>
-                                            <option value="Edificio B - Salón 205" style={{ color: '#111827' }}>Edificio B - Salón 205</option>
-                                            <option value="Edificio C - Cafetería" style={{ color: '#111827' }}>Edificio C - Cafetería</option>
+                                            <option value="CETEC(INGENIERIAS)" style={{ color: '#111827' }}>CETEC</option>
+                                            <option value="CTAI(TECNOLOGICO)" style={{ color: '#111827' }}>CTAI</option>
+                                            <option value="EDIFICIO INGNACIO" style={{ color: '#111827' }}>NEGOCIOS</option>
                                             <option value="Biblioteca Central" style={{ color: '#111827' }}>Biblioteca Central</option>
-                                            <option value="Plaza Central" style={{ color: '#111827' }}>Plaza Central</option>
+                                            <option value="Central" style={{ color: '#111827' }}>Central</option>
                                             <option value="Cafetería Principal" style={{ color: '#111827' }}>Cafetería Principal</option>
                                         </select>
                                     </div>

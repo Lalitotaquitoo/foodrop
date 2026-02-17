@@ -165,14 +165,14 @@ export function MobileNav() {
                         </div>
 
                         <div className="space-y-4">
-                            <div className="bg-gradient-to-r from-orange-500 to-orange-400 rounded-xl p-5 text-white">
+                            <div className="bg-gradient-to-r from-emerald-500 to-emerald-600 rounded-xl p-5 text-white">
                                 <div className="flex items-center gap-3 mb-2">
                                     <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center">
-                                        <User className="w-8 h-8 text-orange-600" />
+                                        <User className="w-8 h-8 text-emerald-600" />
                                     </div>
                                     <div>
                                         <p className="font-bold text-lg">{user.name}</p>
-                                        <p className="text-sm text-orange-100">{user.studentId}</p>
+                                        <p className="text-sm text-emerald-100">{user.studentId}</p>
                                     </div>
                                 </div>
                             </div>
