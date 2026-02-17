@@ -14,7 +14,7 @@ export interface RestaurantMenu {
 
 export const restaurantMenus: RestaurantMenu[] = [
     {
-        restaurantId: '1', // Tacos Don Pepe
+        restaurantId: '1', // Casa Rosa
         items: [
             {
                 id: '1-1',
@@ -51,7 +51,7 @@ export const restaurantMenus: RestaurantMenu[] = [
         ],
     },
     {
-        restaurantId: '2', // Sushi Paradise
+        restaurantId: '2', // Sushi Sensei
         items: [
             {
                 id: '2-1',
@@ -88,7 +88,7 @@ export const restaurantMenus: RestaurantMenu[] = [
         ],
     },
     {
-        restaurantId: '3', // Pizza Napoli
+        restaurantId: '3', // B de Bueno
         items: [
             {
                 id: '3-1',
@@ -125,7 +125,7 @@ export const restaurantMenus: RestaurantMenu[] = [
         ],
     },
     {
-        restaurantId: '4', // Burger House
+        restaurantId: '4', // Cafeteria Cadis
         items: [
             {
                 id: '4-1',
@@ -162,7 +162,7 @@ export const restaurantMenus: RestaurantMenu[] = [
         ],
     },
     {
-        restaurantId: '5', // Ensaladas Express
+        restaurantId: '5', // Capital 64
         items: [
             {
                 id: '5-1',
@@ -199,7 +199,7 @@ export const restaurantMenus: RestaurantMenu[] = [
         ],
     },
     {
-        restaurantId: '6', // Chilaquiles
+        restaurantId: '6', // Subway
         items: [
             {
                 id: '6-1',
@@ -236,7 +236,7 @@ export const restaurantMenus: RestaurantMenu[] = [
         ],
     },
     {
-        restaurantId: '7', // Café Aroma
+        restaurantId: '7', // Mid Market
         items: [
             {
                 id: '7-1',
@@ -273,7 +273,7 @@ export const restaurantMenus: RestaurantMenu[] = [
         ],
     },
     {
-        restaurantId: '8', // Ramen Tokyo
+        restaurantId: '8', // Starbucks
         items: [
             {
                 id: '8-1',

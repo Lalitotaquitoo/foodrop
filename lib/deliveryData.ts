@@ -49,7 +49,7 @@ export const campusLocations: DeliveryLocation[] = [
 export const mockDeliveryOrders: DeliveryOrder[] = [
     {
         id: 'ORD-001',
-        restaurantName: 'Tacos Don Pepe',
+        restaurantName: 'Casa Rosa',
         restaurantLocation: 'Cafetería - Food Court',
         customerName: 'María González',
         deliveryLocation: { name: 'Residencia Femenina A', building: 'Res-F-A', type: 'dorm' },
@@ -64,7 +64,7 @@ export const mockDeliveryOrders: DeliveryOrder[] = [
     },
     {
         id: 'ORD-002',
-        restaurantName: 'Burger House',
+        restaurantName: 'Cafeteria Cadis',
         restaurantLocation: 'Cafetería - Food Court',
         customerName: 'Carlos Ramírez',
         deliveryLocation: { name: 'Edificio C (Ingenierías)', building: 'C-302', type: 'building' },
@@ -79,7 +79,7 @@ export const mockDeliveryOrders: DeliveryOrder[] = [
     },
     {
         id: 'ORD-003',
-        restaurantName: 'Pizza Napoli',
+        restaurantName: 'B de Bueno',
         restaurantLocation: 'Cafetería - Food Court',
         customerName: 'Ana Martínez',
         deliveryLocation: { name: 'Biblioteca Central', building: 'Biblioteca-Sala 2', type: 'building' },
@@ -94,7 +94,7 @@ export const mockDeliveryOrders: DeliveryOrder[] = [
     },
     {
         id: 'ORD-004',
-        restaurantName: 'Sushi Paradise',
+        restaurantName: 'Sushi Sensei',
         restaurantLocation: 'Cafetería - Food Court',
         customerName: 'Luis Hernández',
         deliveryLocation: { name: 'Residencia Masculina B', building: 'Res-M-B', type: 'dorm' },
@@ -109,11 +109,11 @@ export const mockDeliveryOrders: DeliveryOrder[] = [
     },
     {
         id: 'ORD-005',
-        restaurantName: 'Chilaquiles',
+        restaurantName: 'Subway',
         restaurantLocation: 'Cafetería - Food Court',
         customerName: 'Sofía Torres',
         deliveryLocation: { name: 'Centro Deportivo', building: 'Deportivo-Lobby', type: 'sports' },
-        orderItems: ['Chilaquiles Verdes', 'Café Americano'],
+        orderItems: ['Sub Italiano', 'Café Americano'],
         totalAmount: 75,
         deliveryFee: 20,
         estimatedTime: 8,

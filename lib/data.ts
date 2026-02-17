@@ -53,7 +53,7 @@ export const categories: Category[] = [
 export const restaurants: Restaurant[] = [
     {
         id: '1',
-        name: 'Tacos Don Pepe',
+        name: 'Casa Rosa',
         rating: 4.8,
         deliveryTime: '20-30',
         deliveryCost: 0,
@@ -64,7 +64,7 @@ export const restaurants: Restaurant[] = [
     },
     {
         id: '2',
-        name: 'Sushi Paradise',
+        name: 'Sushi Sensei',
         rating: 4.9,
         deliveryTime: '30-40',
         deliveryCost: 0,
@@ -75,7 +75,7 @@ export const restaurants: Restaurant[] = [
     },
     {
         id: '3',
-        name: 'Pizza Napoli',
+        name: 'B de Bueno',
         rating: 4.7,
         deliveryTime: '15-25',
         deliveryCost: 0,
@@ -86,7 +86,7 @@ export const restaurants: Restaurant[] = [
     },
     {
         id: '4',
-        name: 'Burger House',
+        name: 'Cafeteria Cadis',
         rating: 4.6,
         deliveryTime: '25-35',
         deliveryCost: 15,
@@ -97,7 +97,7 @@ export const restaurants: Restaurant[] = [
     },
     {
         id: '5',
-        name: 'Ensaladas Express',
+        name: 'Capital 64',
         rating: 4.5,
         deliveryTime: '20-30',
         deliveryCost: 0,
@@ -108,18 +108,18 @@ export const restaurants: Restaurant[] = [
     },
     {
         id: '6',
-        name: 'Chilaquiles',
+        name: 'Subway',
         rating: 4.9,
         deliveryTime: '15-20',
         deliveryCost: 0,
-        imageUrl: 'https://images.unsplash.com/photo-1604909052743-94e838986d24?w=800&q=80',
-        tags: ['Mexicana', 'Desayuno'],
+        imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
+        tags: ['Sándwich', 'Rápido'],
         priceRange: '$',
-        cuisine: 'Mexicana',
+        cuisine: 'Americana',
     },
     {
         id: '7',
-        name: 'Café Aroma',
+        name: 'Mid Market',
         rating: 4.8,
         deliveryTime: '10-15',
         deliveryCost: 0,
@@ -130,13 +130,13 @@ export const restaurants: Restaurant[] = [
     },
     {
         id: '8',
-        name: 'Ramen Tokyo',
+        name: 'Starbucks',
         rating: 4.7,
         deliveryTime: '25-35',
         deliveryCost: 20,
-        imageUrl: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80',
-        tags: ['Japonesa', 'Ramen'],
+        imageUrl: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80',
+        tags: ['Café', 'Bebidas'],
         priceRange: '$$$',
-        cuisine: 'Japonesa',
+        cuisine: 'Café',
     },
 ];
